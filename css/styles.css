@@ -386,4 +386,8 @@ h5{
     .info-items a {
         font-size: 80%;
     }
+
+    .logos img{
+        width: 8%;
+    }
 }
