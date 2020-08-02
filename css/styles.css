@@ -98,7 +98,7 @@ body {
 /* PORTAFOLIO */
 
 .portafolio{
-    width: 85%;
+    width: 75%;
     background: #082742;
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
@@ -201,6 +201,10 @@ h5{
     justify-content: space-evenly;
 }
 
+.logos img{
+    width: 8%;
+}
+
 /* CONTACTO - FORMULARIO*/
 .contact {
     background-color: #082742;
@@ -248,12 +252,16 @@ h5{
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
-    text-transform: uppercase;
-    font-family: 'Itim', sans-serif;
-    font-size: 16px;
     position: relative;
     z-index: 2;
     color: white;
+}
+
+.contact-info h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Itim', sans-serif;
+    font-size: 150;
 }
 
 .contact-info img{
@@ -347,11 +355,22 @@ h5{
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
     }
     
+    .info-items a {
+        display: none;
+    }
+
     .header h4{
         display: none;
     }
     
     .footer h4 {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+
+    .info-items a {
+        font-size: 80%;
     }
 }
