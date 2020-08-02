@@ -202,7 +202,7 @@ h5{
 }
 
 .logos img{
-    width: 8%;
+    width: 7%;
 }
 
 /* CONTACTO - FORMULARIO*/
@@ -298,7 +298,7 @@ h5{
 }
 
 .social a img{
-    width: 50px;
+    width: 40px;
     margin: 10px 10px;
 }
 
@@ -334,6 +334,19 @@ h5{
 }
 
 @media only screen and (max-width: 750px){
+
+    .portafolio{
+        width: 87%;
+        background: #082742;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+        margin: 65px auto;
+        padding: 20px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
     .project-details{
         width: 100%;
