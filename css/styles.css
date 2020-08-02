@@ -351,6 +351,10 @@ h5{
     .project-details{
         width: 100%;
     }
+
+    .project-details{
+        margin-bottom: 10px;
+    }
     
     .project-imageContainer{
         width: 100%;
