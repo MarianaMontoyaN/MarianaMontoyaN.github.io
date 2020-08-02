@@ -8,6 +8,12 @@ body {
     background: #eeddda;
 }
 
+.contenedor{
+    width: 100%;
+    max-width: 1700px;
+
+}
+
 /* HEADER */
 
 .header{
@@ -62,8 +68,8 @@ body {
     align-items: center;
     background-image: url(../images/hero.jpg);
     background-size: cover;
-    height: 500px;
-    width: 1520px;
+    height: 515px;
+    width: 100%;
     background-position: center center;
 }
 
@@ -100,7 +106,7 @@ body {
 /* PORTAFOLIO */
 
 .portafolio{
-    width: 1200px;
+    width: 85%;
     background: #082742;
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
@@ -139,7 +145,7 @@ h5{
     border-radius: 10px;
     margin: 15px;
     padding: 15px 15px;
-    width: 1000px;
+    width: 98%;
     height: 250px;
 }
 
@@ -164,13 +170,10 @@ h5{
     text-align: justify;
 }
 
-.project-imageContainer img{
-    border-radius: 10px;
-}
-
 .project img{
     width: 400px;
     height: 200px;
+    border-radius: 10px;
 }
 
 
@@ -202,7 +205,7 @@ h5{
     background-color: #082742;
     display: flex;
     justify-content: space-evenly;
-    width: 700px;
+    width: 60%;
     height: 400px;
     margin: 50px auto;
     border-radius: 10px;
